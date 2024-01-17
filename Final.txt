@@ -1,0 +1,6 @@
+El archivo log.txt resultó corrupto. El proceso utilizado para corroborar los hashes fue el siguiente: 
+> md5sum archivo1 archivo2 ... archivox > check_files.md5
+
+Crear un archivo con los hashes proporcionados en el README. 
+Compararlos con el siguiente comando:
+> diff -r archivo1 archivo2 > resultados.
